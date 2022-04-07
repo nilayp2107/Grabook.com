@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grabook.com</title>
+    <link rel="icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display+SC&family=Chakra+Petch" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="001_03_1.css">
+  </head>
+  <body>
+    <div class="menu-bar">
+        <span class="logo"><img src="logo.png"></span>
+        <span class="menu">
+            <span class="home-title"><div class="text">Home</div></span>
+            <span class="buy-title"><div class="text">Grab A Book</div></span>
+            <span class="sell-title"><a href="001_03_1.html"><div class="text">Sell</div></a></span>
+        </span>
+        <span class="login">
+            <div class="text">Login</div>
+        </span>
+        
+    </div>
+    <div class="testbox">
+      <form action="/">
+        <div class="banner">
+          <h1>Put Your Book On Sale</h1>
+        </div>
+        <div class="item">
+          <p>Title Of Book</p>
+          <div class="name-item">
+            <input type="text" name="name" />
+        </div>
+        </div>
+        <div class="item">
+          <p>Author Name</p>
+          <input type="text" name="name" />
+        </div>
+        <div class="item">
+          <p>ISBN Number</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>Genre</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+            <p>Year of Publication</p>
+            <input type="number" name="bdate" />
+        </div>
+        <div class="item">
+            <p>Age of Book</p>
+            <input type="number" name="age" />
+        </div>
+        <div class="item">
+            <p>Price</p>
+            <input type="number" name="age" />
+        </div>
+        <div class="item">
+            <input class="image-box" type="file" name="myimage">
+            <input class="image-box" type="file" name="myimage">
+            <input class="image-box" type="file" name="myimage">
+            <input class="image-box" type="file" name="myimage">
+            <input type="submit" name="submit_image" value="Upload">
+        </div>
+        <div class="item">
+            <p>Contact Address</p>
+            <input type="text" name="name" placeholder="Street address" />
+            <input type="text" name="name" placeholder="Street address line 2" />
+            <div class="city-item">
+              <input type="text" name="name" placeholder="City" />
+              <input type="text" name="name" placeholder="Postal / Zip code" />
+            </div>
+        </div>
+        <div class="item">
+            <p>Seller's Name</p>
+            <input type="text" name="name"/>
+        </div>
+        <div class="item">
+            <p>Seller's Username</p>
+            <input type="text" name="name"/>
+        </div>
+        <div class="item">
+            <p>Password</p>
+            <input type="password" name="name"/>
+        </div>
+        <div class="item">
+          <p>Description of Book</p>
+          <textarea rows="3"></textarea>
+        </div>
+        <div class="btn-block">
+          <button type="submit" href="/">POST</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
